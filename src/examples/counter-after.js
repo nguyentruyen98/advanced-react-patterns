@@ -26,7 +26,7 @@ function CounterProvider({step = 1, initialCount = 0, ...props}) {
 
   return <CounterContext.Provider value={[state, dispatch]} {...props} />
 }
-
+//commnt
 function useCounter() {
   const context = React.useContext(CounterContext)
   if (context === undefined) {
